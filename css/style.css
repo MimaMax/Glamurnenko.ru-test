@@ -1,0 +1,329 @@
+html {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+}
+.bg-dark {
+  background-color: transparent !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #f1f1f1;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.1rem;
+  padding-left: 1.1rem;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+#top_nav {
+  position: absolute;
+}
+#top_nav.fixed {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  background-color: #000000 !important;
+  transition: 0.2s;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky+.content {
+  padding-top: 60px;
+}
+a {
+  color: #f1f1f1;
+}
+a:hover {
+  color: #29abe2;
+}
+body {
+  font-family: Baltica ExtraCond;
+  line-height: 2;
+  font-size: 1.3rem;
+  letter-spacing: 0.1ex;
+  line-height:23pt;
+  color: #f1f1f1;
+}
+.float-right {
+  padding-left: 25%;
+}
+.header-phone {
+  text-align: center;
+  padding-left: 10%;
+}
+.header {
+  position: relative;
+  background-image: url(images/bg-main.png);
+  height: 700px;
+}
+.header-logo {
+  padding-top: 15%;
+  padding-left: 10%;
+}
+.header h4 {
+  line-height: 0%;
+  margin-bottom: 0%;
+}
+#logo-text-underlined {
+  color: #ccac7b;
+}
+.box {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  background-color: #ffffff;
+}
+.rotate-block {
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  text-align: right;
+}
+.simple-ribbon {
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: -105px;
+  background: #ff0c3a;
+  box-shadow: 0px 4px 10px 0px rgb(109, 109, 109);
+  font-family: Calibri, sans-serif;
+  color: #fcedea;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 0.9em;
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  transform: rotate(315deg);
+  padding: 10px 20px;
+  height: 40px;
+  width: 150%;
+}
+.box h4 {
+  color: #313131;
+  text-align: center;
+}
+h1 {
+    color: #313131;
+}
+.box h1 {
+  color: #313131;
+  text-align: center;
+  font-size: 42pt;
+  padding-top: 65px;
+}
+.box h4 {
+  font-family: Calibri, sans-serif;
+}
+.img-1 {
+  text-align: center;
+}
+.img-2 {
+  padding-top: 5%;
+  text-align: center;
+}
+.img-1 h6 {
+  color: #aaaaaa;
+  font-family: Arial, sans-serif;
+  padding: 0.5% 0%;
+  font-size: 8pt;
+  letter-spacing: normal;
+}
+.how-all-happends h4, h1 {
+  padding: 1% 25%;
+  text-align: justify;
+}
+.how-all-happends h4 {
+  color: #5c5c5c;
+  font-family: Arial, sans-serif;
+  letter-spacing: normal;
+  font-size: 12pt;
+}
+.how-all-happends p {
+  color: #5c5c5c;
+    padding: 1% 35%;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    letter-spacing: normal;
+    font-size: 12pt;
+}
+tbody,td,tfoot,th,thead,tr {
+  border-color: #fdc400;
+  border-width: medium;
+}
+.table {
+  width: 60%;
+  margin: auto;
+  font-family: Calibri, sans-serif;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-align: center;
+}
+.table h6, h4 {
+  font-weight: 600;
+}
+.table-light {
+  --bs-table-bg: #fff000;
+}
+.table-light th {
+  --bs-table-bg: #ffd100;
+  font-size: 20pt;
+  line-height: 1.5em;
+}
+.table i {
+  font-size: 15pt;
+}
+.table-row-1 {
+  text-align: left;
+}
+td.table-row-1, th.table-row-1 {
+  padding-left: 20px;
+}
+.table-btn {
+  padding-top: 5% !important;
+}
+.btn-dark:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 0px;
+  transition: 0.08s;
+}
+.container-box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.box-value {
+  border: 1px solid black; 
+  width: 7%;
+  margin: 1%;
+}
+.box-value:hover {
+  border: 0px solid black;
+  background-color: #f1f1f1;
+  width: 7%;
+  margin: 1%;
+  transition: 0.08s;
+  cursor: pointer;
+}
+.card-deck {
+  display: flex;
+  padding: 5% 15%;
+}
+.card {
+  width: 28%;
+  margin: 0% 4%;
+  font-family: Calibri, sans-serif;
+  color: #313131;
+  letter-spacing: normal;
+  border: 3px solid #e7e7e7;
+  border-radius: 0%;
+  padding-bottom: 3%;
+}
+.card:hover {
+  border-color: #c4c4c4;
+  box-shadow: 0px 0px 5px 5px #c4c4c4;
+  transition-duration: 0.2s;
+}
+.card h5 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20pt;
+}
+.card-header-text {
+  text-align: center;
+  font-weight: 600;
+  font-size: 12pt;
+  padding: 0%;
+}
+.card-value-false {
+  color: #aaaaaa;
+  text-align: center;
+}
+.card-value-true {
+  color: #000000;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18pt;
+}
+.card-redline {
+  width: 18%;
+  background-color: #ff0c3a;
+  height: 0.3%;
+  position: absolute;
+  top: 69.5%;
+  left: 40%;
+  transform: rotate(345deg);
+  padding: 0px 0px;
+}
+.card .btn-light {
+  background-color: #ff0c3a;
+  color: #f1f1f1;
+  width: 80%;
+  margin: auto;
+}
+.card .btn-light:hover {
+  background-color: #f1f1f1;
+  color: #ff0c3a;
+  width: 80%;
+  margin: auto;
+  transition-duration: 0.2s;
+}
+.row {
+  padding: 5% 20%;
+  --bs-gutter-x: 0rem;
+}
+.col-lg-5 {
+  text-align: center;
+}
+.col-lg-5 img {
+  width: 65%;
+}
+.col-lg-7 {
+  padding-bottom: 5%;
+}
+.chat-text {
+  padding: 30% 0%;
+  color: #000000;
+  font-family: Calibri,sans-serif;
+  font-size: 18pt;
+}
+.footer {
+  height: 300px;
+  width: 100%;
+  background-color: #000000;
+  text-align: left;
+  padding-top: 3%;
+}
+.footer-btn {
+  text-align: center;
+}
+.footer button {
+  font-family: Calibri, sans-serif;
+  letter-spacing: normal;
+  text-align: center;
+  background-color: #000000;
+  border: 1px solid #fff;
+}
+.footer button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.footer p {
+  text-align: left;
+    font-family: Calibri, sans-serif;
+    letter-spacing: normal;
+    font-size: 10pt;
+    padding-left: 1%;
+}
+
+@font-face { 
+  font-family: "Baltica ExtraCond";
+  src: url("../webfonts/Baltica ExtraCond Regular.otf") format("truetype");
+}
