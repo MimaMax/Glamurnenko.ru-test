@@ -323,6 +323,49 @@ td.table-row-1, th.table-row-1 {
     padding-left: 1%;
 }
 
+/*Mobile device adaptive*/
+@media screen and (max-width: 768px) {
+  td.table-row-1, th.table-row-1 {
+    padding-left: 0px;
+  }
+  .table {
+    font-family: Baltica ExtraCond, sans-serif;
+  }
+  .card {
+    width: 90%;
+    margin: 2% 4%;
+  }
+  .card-deck {
+    flex-direction: column;
+  }
+  .card-redline {
+    top: 75.5%;
+  }
+  .float-right {
+    padding-left: 5%;
+  }
+  .how-all-happends h4, h1 {
+    padding: 1% 5%;
+  }
+  .how-all-happends p {
+    padding: 1% 5%;
+  }
+  .simple-ribbon {
+    height: 20px;
+    padding: 0%;
+    top: 20px;
+    left: -153px;
+  }
+  .header {
+    background-position: center;
+    height: 400px;
+    background-size: cover;
+  }
+  .box {
+    height: auto;
+  }
+}
+
 @font-face { 
   font-family: "Baltica ExtraCond";
   src: url("../webfonts/Baltica ExtraCond Regular.otf") format("truetype");
